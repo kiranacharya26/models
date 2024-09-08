@@ -1,4 +1,3 @@
-// src/components/ModelCard.js
 import Link from "next/link";
 
 const ModelCard = ({ model }) => {

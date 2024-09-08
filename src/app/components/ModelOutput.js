@@ -13,7 +13,7 @@ export default function ModelOutput({ outputs, data, time }) {
               <h3 className="text-lg font-semibold">{output.description}</h3>
               {output.type === 'image' && value ? (
                 <img
-                  src={value} // Direct URL to the image
+                  src={value} 
                   alt={output.description}
                   className="w-full h-auto"
                 />
